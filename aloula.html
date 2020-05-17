@@ -9,11 +9,14 @@
   </head>
   <body>
     <video controls="" width="100%" max-width="800px" muted="" loop="" autoplay="" ></video></video>
-    <script>
-      
+<script>
+      ((source) => {
+        if (typeof Hls == "undefined") return console.error("HLS Not Found");
+        if (!document.querySelector("video")) return;
+        var hls = new Hls();
         hls.loadSource(source);
         hls.attachMedia(document.querySelector("video"));
-      })("https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter-avc1_1000000=3-mp4a_130400_qad=1.m3u8");
+      })("https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/al_maghribia_snrt-avc1_1500000=4-mp4a_130400_qad=1.m3u8");
     </script>
 
 
