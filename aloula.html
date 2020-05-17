@@ -10,17 +10,7 @@
   <body>
     <video controls="" width="100%" max-width="800px" muted="" loop="" autoplay="" ></video></video>
     <script>
-      const video = document.getElementById('video');
-const videoControls = document.getElementById('video-controls');
-
-const videoWorks = !!document.createElement('video').canPlayType;
-if (videoWorks) {
-  video.controls = false;
-  videoControls.classList.remove('hidden');
-      ((source) => {
-        if (typeof Hls == "undefined") return console.error("HLS Not Found");
-        if (!document.querySelector("video")) return;
-        var hls = new Hls();
+      
         hls.loadSource(source);
         hls.attachMedia(document.querySelector("video"));
       })("https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter-avc1_1000000=3-mp4a_130400_qad=1.m3u8");
