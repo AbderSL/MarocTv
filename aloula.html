@@ -9,13 +9,54 @@
   </head>
   <body>
     <video controls="" width="100%" max-width="800px" muted="" loop="" autoplay="" ></video></video>
-<script>
-      ((source) => {
-        if (typeof Hls == "undefined") return console.error("HLS Not Found");
-        if (!document.querySelector("video")) return;
-        var hls = new Hls();
-        hls.loadSource(source);
-        hls.attachMedia(document.querySelector("video"));
+  <script>
+    $(document).ready(function(){
+      var numUploads = {};
+      numUploads.done = 0;
+      numUploads.total = 0;
+
+      var myDropzone = new Dropzone("#myForm", { url: "#"});
+      myDropzone.on("addedfile", function() {
+        iteratorFileUpload();
+      });
+
+      // Upload the files into a folder in drive
+      // This is set to send them all to one folder (specificed in the .gs file)
+      function iteratorFileUpload() {
+        myDropzone.disable();
+        var allFiles = document.getElementsByTagName("input")[0].files;
+        if (allFiles.length == 0) {
+          alert('No file selected!');
+        } else {
+          numUploads.total = allFiles.length;
+          $("#status").removeClass("hidden");
+          $("#status-message").text("Uploading file " + numUploads.done + " of " + numUploads.total + "...");
+          for (var i = 0; i < allFiles.length; i++) {
+            sendFileToDrive(allFiles[i]);
+          }
+        }
+      }
+
+      function sendFileToDrive(file) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+          var content = reader.result;
+          console.log('Sending ' + file.name);
+          var currFolder = 'Something';
+          google.script.run.withSuccessHandler(function(){
+            numUploads.done = numUploads.done + 1;
+            if(numUploads.done !== numUploads.total){
+              $("#status-message").text("Uploading file " + numUploads.done + " of " + numUploads.total + "...");
+            } else{
+              $("#status-message").text("Uploading finished!");
+            }
+            
+          }).withFailureHandler(function(e){
+            alert(e.message);
+          }).uploadFileToDrive(content, file.name, currFolder);
+        }
+        reader.readAsDataURL(file);
+      }
       })("https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/al_maghribia_snrt-avc1_1500000=4-mp4a_130400_qad=1.m3u8");
     </script>
 
