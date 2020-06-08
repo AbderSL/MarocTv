@@ -21,11 +21,12 @@
           "title": "Medi 1 TV",
           "url": "https://AbderSL.github.io/MarocTv/Medi1TV.html",
           "img": "https://AbderSL.github.io/MarocTv/medi1tvhd.jpg"
-         },
+        },
         "page3": {
           "title": "Aloula",
-          "url": "https://AbderSL.github.io/MarocTv/aloula.htm",
-          "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
+          "url": "https://AbderSL.github.io/MarocTv/aloula.html",
+          "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"           
+
         },
         "page4": {
           "title": "Almeghribia",
