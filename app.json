@@ -6,7 +6,7 @@
     
     
     "ads":{
-        "bannerId": "-app-pub-4795636117292694/7167087811",
+        "bannerId": "ca-app-pub-4795636117292694/7167087811",
         "interstitialId": "-app-pub-4795636117292694/6010699069"
     },
     
@@ -24,7 +24,7 @@
          },
         "page3": {
           "title": "Aloula",
-          "url": "https://AbderSL.github.io/MarocTv/aloula.html",
+          "url": "https://AbderSL.github.io/MarocTv/aloula.htm",
           "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
         },
         "page4": {
