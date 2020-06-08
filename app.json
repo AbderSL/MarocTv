@@ -6,8 +6,8 @@
     
     
     "ads":{
-        "bannerId": "ca-app-pub-4795636117292694/7167087811",
-        "interstitialId": "ca-app-pub-4795636117292694/6010699069"
+        "bannerId": "-app-pub-4795636117292694/7167087811",
+        "interstitialId": "-app-pub-4795636117292694/6010699069"
     },
     
     
@@ -18,31 +18,36 @@
           "img": "https://AbderSL.github.io/MarocTv/2MLogo.jpg"
         },
         "page2": {
+          "title": "Medi 1 TV",
+          "url": "https://AbderSL.github.io/MarocTv/Medi1TV.html",
+          "img": "https://AbderSL.github.io/MarocTv/medi1tvhd.jpg"
+         },
+        "page3": {
           "title": "Aloula",
           "url": "https://AbderSL.github.io/MarocTv/aloula.html",
           "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
         },
-        "page3": {
+        "page4": {
           "title": "Almeghribia",
           "url": "https://AbderSL.github.io/MarocTv/Almeghribia.html",
           "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
         },
-        "page4": {
+        "page5": {
           "title": "Arriyadia",
           "url": "https://AbderSL.github.io/MarocTv/arriyadia.html",
           "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
         },
-        "page5": {
+        "page6": {
           "title": "Attaqafia",
           "url": "https://AbderSL.github.io/MarocTv/Altaqafia.html",
           "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
         },
-        "page6": {
+        "page7": {
           "title": "Assadissa",
           "url": "https://AbderSL.github.io/MarocTv/Assadissa.html",
           "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
         },
-        "page7": {
+        "page8": {
           "title": "Tamazight",
           "url": "https://AbderSL.github.io/MarocTv/Tamazight.html",
           "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
