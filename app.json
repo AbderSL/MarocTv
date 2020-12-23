@@ -15,43 +15,43 @@
         "page1": {
           "title": "2M Maroc",
           "url": "https://AbderSL.github.io/MarocTv/2M.html",
-          "img": "https://AbderSL.github.io/MarocTv/2MLogo.jpg"
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/2M.jpg"
         },
         "page2": {
           "title": "Medi 1 TV",
           "url": "https://AbderSL.github.io/MarocTv/Medi1TV.html",
-          "img": "https://AbderSL.github.io/MarocTv/medi1tvhd.jpg"
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/M1.jpg"
         },
         "page3": {
           "title": "Aloula",
           "url": "https://AbderSL.github.io/MarocTv/Aloula.html",
-          "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"           
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/1.jpg"           
 
         },
         "page4": {
           "title": "Almeghribia",
           "url": "https://AbderSL.github.io/MarocTv/Almeghribia.html",
-          "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/5.jpg"
         },
         "page5": {
           "title": "Arriyadia",
           "url": "https://AbderSL.github.io/MarocTv/Arriyadia.html",
-          "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/3.jpg"
         },
         "page6": {
           "title": "Attaqafia",
           "url": "https://AbderSL.github.io/MarocTv/Altaqafia.html",
-          "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/4.jpg"
         },
         "page7": {
           "title": "Assadissa",
           "url": "https://AbderSL.github.io/MarocTv/Assadissa.html",
-          "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/6.jpg"
         },
         "page8": {
           "title": "Tamazight",
           "url": "https://AbderSL.github.io/MarocTv/Tamazight.html",
-          "img": "https://AbderSL.github.io/MarocTv/snrtLogo.jpg"
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/8.jpg"
         }
       }
 }
