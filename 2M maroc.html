@@ -18,24 +18,20 @@
     }
   </style>
 </head>
-<body>
-  <video id="video" style="width: 100%; height: 100%;" controls></video>
-  <script>
- function playM3u8(url){
-  if(Hls.isSupported()) {
-      var video = document.getElementById('video');
-      video.volume = 1.0;
-      var hls = new Hls();
-      var m3u8Url = decodeURIComponent(url)
-      hls.loadSource(m3u8Url);
-      hls.attachMedia(video);
-      hls.on(Hls.Events.MANIFEST_PARSED,function() {
-        video.play();
-      });
-      document.title = url
-    }
-}
-playM3u8 ("https://gintna100.tulix.tv/gin_live/2mmaroc/052bc4bba33d2eb5b3f0d4de41be2c11/6275864f/index.m3u8");
+<div id="player" style="width:646px;height:377px;">
+</div>
+</div>
+<script src="http://jwpsrv.com/library/DdkXAvrLEeK6QxIxOUCPzg.js"></script>
+<script type="text/javascript">
+    jwplayer("player").setup({
+        file: "http://rbc.streamguys.com/970wamd/970wamd/playlist.m3u8",
+
+        autostart: true,
+
+        width: "643",
+        height: "375",
+        primary: "html5",
+        androidhls: true
+    });
 </script>
-</body>
 </html>
