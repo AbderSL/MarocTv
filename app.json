@@ -1,7 +1,7 @@
 {
     "app": {
-        "name": "Maroc TV",
-        "color": "#1486F1"
+        "name": "جميع القنوات المغربية مباشرة",
+        "color": "##BBD2E1"
     },
   
   
@@ -11,48 +11,62 @@
       "interstitialId": "ca-app-pub-3940256099942544/1033173712X",
      "ironsource_id": "XXX"
   },
-    
-    "content": {
-        "page7": {
-          "title": "2M Maroc",
+  
+  
+     "content": {
+        "page1": {
+          "title": "2M Maroc  الثانية المغربية",
           "url": "https://AbderSL.github.io/MarocTv/2M.html",
           "img": "https://AbderSL.github.io/MarocTv/LOGO/2M.jpg"
+
         },
-        "page8": {
-          "title": "Medi 1 TV",
-          "url": "https://AbderSL.github.io/MarocTv/Medi1TV.html",
-          "img": "https://AbderSL.github.io/MarocTv/LOGO/M1.jpg"
-        },
-        "page1": {
-          "title": "Aloula",
+        "page2": {
+          "title": "Aloula  الأولى المغربية",
           "url": "https://AbderSL.github.io/MarocTv/Aloula.html",
           "img": "https://AbderSL.github.io/MarocTv/LOGO/1.jpg"           
 
         },
-        "page2": {
-          "title": "Almeghribia",
+        "page4": {
+          "title": "Almeghribia  الخامسة المغربية 5",
           "url": "https://AbderSL.github.io/MarocTv/Almeghribia.html",
           "img": "https://AbderSL.github.io/MarocTv/LOGO/5.jpg"
         },
         "page3": {
-          "title": "Arriyadia",
+          "title": "Arriyadia  الرياضية المغربية",
           "url": "https://AbderSL.github.io/MarocTv/Arriyadia.html",
           "img": "https://AbderSL.github.io/MarocTv/LOGO/3.jpg"
         },
-        "page4": {
-          "title": "Attaqafia",
+        "page5": {
+          "title": "Attaqafia  الرابعة التقافية",
           "url": "https://AbderSL.github.io/MarocTv/Altaqafia.html",
           "img": "https://AbderSL.github.io/MarocTv/LOGO/4.jpg"
         },
-        "page5": {
-          "title": "Assadissa",
+        "page6": {
+          "title": "Assadissa قناة محمد السادس",
           "url": "https://AbderSL.github.io/MarocTv/Assadissa.html",
           "img": "https://AbderSL.github.io/MarocTv/LOGO/6.jpg"
         },
-        "page6": {
-          "title": "Tamazight",
+        "page7": {
+          "title": "Tamazight تمازيغت",
           "url": "https://AbderSL.github.io/MarocTv/Tamazight.html",
           "img": "https://AbderSL.github.io/MarocTv/LOGO/8.jpg"
+	    },
+        "page8": {
+          "title": "Medi 1 TV ميدي1",
+          "url": "https://AbderSL.github.io/MarocTv/Medi1TV.html",
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/M1.jpg"
+	    },
+        "page9": {
+          "title": "Chada tv شدى",
+          "url": "https://AbderSL.github.io/MarocTv/Chada.html",
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/Chada.jpg"
+	    },
+        "page10": {
+          "title": "M24TV المغرب 24",
+          "url": "https://AbderSL.github.io/MarocTv/M24.html",
+          "img": "https://AbderSL.github.io/MarocTv/LOGO/M24.jpg"
+		  
         }
-      }
+
+        }
 }
