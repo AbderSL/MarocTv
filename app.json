@@ -6,7 +6,7 @@
   
   
   "ads":{
-     "ads_type": "IronSource",
+     "ads_type": "ISource",
       "bannerId": "",
       "interstitialId": "",
      "ironsource_id": "16c63c695"
